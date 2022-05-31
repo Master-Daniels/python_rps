@@ -23,6 +23,5 @@ Enter a choice: """).upper()
         print(f"{result}, \nPlayer({choices_map[user_choice]}) : CPU({choices_map[computer_choice]})")
         break
     else:
-        result = "Oh no this mindless computer has won, try again"
+        result = "Oh no this mindless computer won, try again"
         print(f"{result}, \nCPU({choices_map[computer_choice]}) : Player({choices_map[user_choice]})")
-
